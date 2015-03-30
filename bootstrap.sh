@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 DBPASSWD=root
 
+sudo su
+
 echo -e "\n--- System Install ---\n"
 apt-get update > /dev/null 2>&1
 apt-get install debconf-utils > /dev/null 2>&1
