@@ -28,3 +28,7 @@ sed -i "s/AllowOverride None/AllowOverride All/g" /etc/apache2/apache2.conf
 
 echo -e "\n--- Install Utilities ---\n"
 apt-get -y install vim curl build-essential git > /dev/null 2>&1
+
+echo -e "\n--- Upload Config ---\n"
+cp /vagrant/conf/000-default.conf /etc/apache2/sites-available/000-default.conf
+service apache2 reload
