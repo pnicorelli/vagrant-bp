@@ -1,6 +1,6 @@
 # vagrantStarters
 
-Each repository branch has a vagrant configuration for diffent cases.
+Each branch has a vagrant configuration for diffent cases.
 
 Supported machines:
 
