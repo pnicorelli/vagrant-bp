@@ -1,4 +1,4 @@
-# vagrantStarters
+# vagrant boilerplate
 
 Each branch has a vagrant configuration for diffent cases.
 
