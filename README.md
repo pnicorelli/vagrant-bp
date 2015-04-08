@@ -1,4 +1,4 @@
-# Vagrant Starter
+# Vagrant boilerplate
 
 branch `rapace`:
 
